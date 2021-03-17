@@ -3,7 +3,10 @@
 This repo contains the three compartment breast (3CB) software and
 final trained neural network model used in the manuscript entitled "Dual-energy
 three compartment breast imaging (3CB) for novel compositional biomarkers to
-improve detection of malignant lesions", submitted to Nature publications in q1 2021.
+improve detection of malignant lesions", submitted to Nature publications in q1 2021. 
+
+
+[![DOI](https://zenodo.org/badge/348485528.svg)](https://zenodo.org/badge/latestdoi/348485528)
 
 
 The 3CB software converts fully registered high and low energy mammograms to lipid, water, and protein compositional thickness maps. Base software is written for Matlab 2016.

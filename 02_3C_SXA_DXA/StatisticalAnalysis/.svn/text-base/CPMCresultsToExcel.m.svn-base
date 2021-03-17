@@ -1,0 +1,2 @@
+[a,b]=mxdatabase(Database.Name,'select * from acquisition,commonanalysis,sxaanalysis,thresholdanalysis where commonanalysis.acquisition_id=acquisition.acquisition_id and sxaanalysis.commonanalysis_id=commonanalysis.commonanalysis_id and thresholdanalysis.commonanalysis_id=commonanalysis.commonanalysis_id');
+copyresultstoexcel(a,b)

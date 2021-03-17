@@ -1,0 +1,3 @@
+function maskedImage=do_mask(imageVar, maskObj)
+maskedImage=imageVar(maskObj.xmin:maskObj.xmax, maskObj.ymin:maskObj.ymax).*maskObj.roiMask;
+end

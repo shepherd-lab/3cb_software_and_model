@@ -1,0 +1,12 @@
+function [output,outputFeature_id]=evaluatesubfunc(calcParam,inputParam)
+%evaluates all the subfunction calls and concatenates them into arrays.
+output=[];
+outputFeature_id=[];
+for i=1:size(inputParam.sub_func,2)
+    fcnPointer=inputParam.sub_func{i}.processFcn;
+    newOutput=fcnPointer(calcParam,inputParam.sub_func{i});
+    newOutputFeature_id=inputParam.sub_func{i}.feature_id;
+    output=[output,newOutput]; %#ok<AGROW>
+    outputFeature_id=[outputFeature_id,newOutputFeature_id]; %#ok<AGROW>
+end
+end

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/rad_software/!svn/ver/17065/groups/bbdg/branches/3C%20SXA%20DXA/Senograph
+END
+ComputeRST.m
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/rad_software/!svn/ver/17065/groups/bbdg/branches/3C%20SXA%20DXA/Senograph/ComputeRST.m
+END
+Calibration.m
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/rad_software/!svn/ver/17065/groups/bbdg/branches/3C%20SXA%20DXA/Senograph/Calibration.m
+END
+SenographFnc.m
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/rad_software/!svn/ver/17065/groups/bbdg/branches/3C%20SXA%20DXA/Senograph/SenographFnc.m
+END
+ComputeMaterialImage.m
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/rad_software/!svn/ver/17065/groups/bbdg/branches/3C%20SXA%20DXA/Senograph/ComputeMaterialImage.m
+END
+ComputeMaterialImage2.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/rad_software/!svn/ver/17065/groups/bbdg/branches/3C%20SXA%20DXA/Senograph/ComputeMaterialImage2.m
+END
+ComputeMaterialImage3.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/rad_software/!svn/ver/17065/groups/bbdg/branches/3C%20SXA%20DXA/Senograph/ComputeMaterialImage3.m
+END
+CorrectBackGroundVariations.m
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/Senograph/CorrectBackGroundVariations.m
+END
+NoiseAnalysis.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/Senograph/NoiseAnalysis.m
+END
+ComputeMaterialImage4.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/rad_software/!svn/ver/17065/groups/bbdg/branches/3C%20SXA%20DXA/Senograph/ComputeMaterialImage4.m
+END
+ComputeMaterialImage5.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/rad_software/!svn/ver/17065/groups/bbdg/branches/3C%20SXA%20DXA/Senograph/ComputeMaterialImage5.m
+END
+DrawGrid.m
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/Senograph/DrawGrid.m
+END

@@ -1,0 +1,10 @@
+function maskStruct=get_mask(databaseObj, maskName)
+maskObs=databaseObj.getObs(maskName,'maskTable','mask_name');
+maskStruct.name=maskName;
+maskStruct.coordFcn=get_process_step(mask
+for i=1:numFields
+    preprocess.step{i}=get_process_step(processObs{end}.(fieldNames{i}));
+end
+end
+    
+

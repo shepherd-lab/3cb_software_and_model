@@ -1,0 +1,33 @@
+function [imageOut maskOut] = applyLawsFilter(imageObj, maskObj, fVer, fHor)
+%ApplyLawsFilter will do 2D convolution on the masked region using the 
+%specified Laws filters: horizontal filter (fHor) and vertical filter
+%(fVer).
+%define Laws filters
+L3 = [1 2 1]; %#ok<NASGU>
+E3 = [-1 0 1]; %#ok<NASGU>
+S3 = [-1 2 -1]; %#ok<NASGU>
+
+L5 = [1 4 6 4 1]; %#ok<NASGU>
+E5 = [-1 -2 0 2 1]; %#ok<NASGU>
+S5 = [-1 0 2 0 -1]; %#ok<NASGU>
+W5 = [-1 2 0 -2 1]; %#ok<NASGU>
+R5 = [1 -4 6 -4 1]; %#ok<NASGU>
+
+L7 = [1 6 15 20 15 6 1];        %#ok<NASGU> %leverl filter
+E7 = [-1 -4 -5 0 5 4 1];        %#ok<NASGU> %edge filter
+S7 = [-1 -2 1 4 1 -2 -1];       %#ok<NASGU> %spot filter
+W7 = [-1 0 3 0 -3 0 1];         %#ok<NASGU> %wave filter
+R7 = [1 -2 -1 4 -1 -2 1];       %#ok<NASGU> %ripple filter
+O7 = [-1 6 -15 20 -15 6 -1];    %#ok<NASGU> %oscillation filter
+
+%construct 2D filter using the specified fHor and fVer
+filterV = eval(fVer)';
+filterH = eval(fHor);
+filter2D = conv2(filterV, filterH);
+
+%get the minimum rectangular area to apply 2D filter
+imageIn=do_mask(imageObj.imageRaw.*imageObj.breastMask,maskObj);
+%apply 2D filter
+imageOut = conv2(imageIn, filter2D, 'same');
+maskOut=maskObj.roiMask;
+end

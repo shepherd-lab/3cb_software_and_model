@@ -1,0 +1,19 @@
+function output = infoMeasB(calcParam, inputParam)
+%infoMeasB computes Information Measure B
+%Notation described in 'Feature Definition and Algorithm.docx'
+ETP=entropy(calcParam, inputParam);
+Cx = sum(calcParam.comat, 2);
+Cy = sum(calcParam.comat, 1);
+n = length(Cx);
+%Entropy of Cx, Cy
+HXY = 0;
+for i = 1:n
+    for j = 1:n
+        if Cx(i) ~= 0 && Cy(j) ~= 0
+            HXY = HXY + Cx(i)*Cy(j)*log(Cx(i)*Cy(j));
+        end
+    end
+end
+HXY = -HXY;
+output = sqrt(1 - exp(-2*(HXY - ETP)));
+end

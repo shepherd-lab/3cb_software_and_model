@@ -1,0 +1,4 @@
+function output=fft_rms(calcParam,inputParam) %#ok<*INUSD>
+output = sqrt(sum(calcParam.P_vect));
+end
+

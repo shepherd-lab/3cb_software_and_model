@@ -1,0 +1,14 @@
+function [output,outputNames]=glcm_enthropy(image, mask, stats, glcmroi_norm, param)
+output = stats.Contrast;
+outputNames={'GLCM_Contrast'};
+end
+%Labeled as contrast calculation in StructuralAnalysis but never returned.
+%for i = 1:Ng
+%    for j = 1:Ng
+%        k_matr(i,j) = abs(i-j);
+%    end
+%end
+%for k = 0:Ng-1
+%    index = find(k_matr==k);
+%    gcontr = gcontr + k^2*sum(glcmroi_norm(index));
+%end

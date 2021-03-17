@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/Site
+END
+LeadMarkerThreshold.m
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/Site/LeadMarkerThreshold.m
+END
+AddCPMCdata.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/Site/AddCPMCdata.m
+END
+GetBRAND.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/Site/GetBRAND.m
+END
+EnterNewMotif.m
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/Site/EnterNewMotif.m
+END
+CPMCpushR2.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/Site/CPMCpushR2.m
+END
+PrepareCDs.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/Site/PrepareCDs.m
+END
+ReadDicomFromEfilm.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/Site/ReadDicomFromEfilm.m
+END
+AutomaticBlindTag.m
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/Site/AutomaticBlindTag.m
+END
+Old_dicom-dict.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/Site/Old_dicom-dict.txt
+END
+EraseOldFile.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/Site/EraseOldFile.m
+END
+ManualEntry.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/Site/ManualEntry.m
+END
+SetTheLocationDropMenu.m
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/Site/SetTheLocationDropMenu.m
+END
+TestAutomaticBlind.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/Site/TestAutomaticBlind.m
+END
+TopHat.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/Site/TopHat.m
+END
+QCmanagement.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/Site/QCmanagement.m
+END
+LogFile.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/Site/LogFile.txt
+END
+_DicomInfo.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/Site/_DicomInfo.m
+END
+FindRoomNumber2.m
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/Site/FindRoomNumber2.m
+END
+TestRoomDetection.m
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/Site/TestRoomDetection.m
+END
+GetROOM.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/Site/GetROOM.m
+END
+findTheTag.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/Site/findTheTag.m
+END
+hour.m
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/Site/hour.m
+END
+MainLoop.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/Site/MainLoop.m
+END
+ConvertMotif.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/Site/ConvertMotif.m
+END
+TopHat2.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/Site/TopHat2.m
+END
+testCorrelation.m
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/Site/testCorrelation.m
+END
+CPMCanalysisReport.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/Site/CPMCanalysisReport.m
+END
+BlindTagTool.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/Site/BlindTagTool.m
+END
+PushRecalledPatients.m
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/Site/PushRecalledPatients.m
+END
+UserGUI.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/Site/UserGUI.m
+END

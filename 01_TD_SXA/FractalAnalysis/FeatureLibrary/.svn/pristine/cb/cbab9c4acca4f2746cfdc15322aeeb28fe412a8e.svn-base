@@ -1,0 +1,4 @@
+function output = grayLevNonuni(calcParam, inputParam) %#ok<INUSD>
+%calculate the gray level nonuniformity based on the run-length matrix
+output = sum((sum(calcParam.rlMatObj.matrix, 2)).^2)/calcParam.NOR;
+end

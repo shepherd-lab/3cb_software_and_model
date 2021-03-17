@@ -1,0 +1,48 @@
+function maskDefList = mask_square(imageObj, coordStruct, mask)
+%This function masks off a square region in an image.
+%It creates a square mask, centered on coordStruct.XY
+%mask.maskFcn.parameter_1 determines how the square size is calculated
+%pixels - in pixels, centimeter - in centimeters, relative - relative to
+%coordinate system (not implemented)
+maskDefList.name=mask.name;
+maskDefList.maskDefinition={};
+maskDefList.XY=coordStruct.XY;
+maskDefList.roiMask={};
+xmin0=1;
+ymin0=1;
+xmax0=size(imageObj.imageRaw, 1);
+ymax0=size(imageObj.imageRaw, 2);
+squareSize=str2num(mask.maskFcn.parameter_2); %#ok<ST2NM>
+for i=1:size(coordStruct.XY, 1)
+    yCenter=interp2(imageObj.breastCoord.lateralMatrix, imageObj.breastCoord.distMatrix,...
+        imageObj.breastCoord.xMatrix, coordStruct.XY(i,2), coordStruct.XY(i,1));
+    xCenter=interp2(imageObj.breastCoord.lateralMatrix, imageObj.breastCoord.distMatrix,...
+        imageObj.breastCoord.yMatrix, coordStruct.XY(i,2), coordStruct.XY(i,1));
+    switch mask.maskFcn.parameter_1
+        case 'pixels'
+            xmin=round(xCenter-squareSize/2);
+            xmax=round(xCenter+squareSize/2);
+            ymin=round(yCenter-squareSize/2);
+            ymax=round(yCenter+squareSize/2);
+        case 'centimeter'
+            pixelLength=round(10000*squareSize/(imageObj.resolution));
+            xmin=round(xCenter-pixelLength/2);
+            xmax=round(xCenter+pixelLength/2);
+            ymin=round(yCenter-pixelLength/2);
+            ymax=round(yCenter+pixelLength/2);
+        otherwise
+            error('mask_square:UNSUPPORTEDUNITTYPE', 'pixels and centimeter are supported');
+    end
+     maskDefList.maskDefinition{i}.xCenter=xCenter;
+     maskDefList.maskDefinition{i}.yCenter=yCenter;
+     maskDefList.maskDefinitionPi
+     maskDefList.maskDefinition{i}.xmin=limit_range(xmin, xmin0, xmax0);
+     maskDefList.maskDefinition{i}.xmax=limit_range(xmax, xmin0, xmax0);
+     maskDefList.maskDefinition{i}.ymin=limit_range(ymin, ymin0, ymax0);
+     maskDefList.maskDefinition{i}.ymax=limit_range(ymax, ymin0, ymax0);
+     maskDefList.maskDefinition{i}.roiMask=ones(xmax-xmin, ymax-ymin);
+    if isempty(maskDefList.roiMask{i})
+        error('mask_square:EMPTYMASK', 'All masks must contain more than 0 pixels');
+    end
+end
+end

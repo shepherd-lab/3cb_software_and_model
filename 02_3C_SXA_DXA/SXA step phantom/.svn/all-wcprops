@@ -1,0 +1,1331 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/rad_software/!svn/ver/20622/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom
+END
+rm2_rightsmall.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm2_rightsmall.m
+END
+optimization_cpmc.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/optimization_cpmc.m
+END
+Z2phantom_automatic.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/Z2phantom_automatic.m
+END
+testbblocation1(orig).m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/testbblocation1(orig).m
+END
+bbs_position_height86.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/bbs_position_height86.m
+END
+testbblocation2(orig).m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/testbblocation2(orig).m
+END
+bbs_position_downright2.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/bbs_position_downright2.m
+END
+roiTransformation2.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/roiTransformation2.m
+END
+rm2_bbspos_rightbigl.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm2_bbspos_rightbigl.m
+END
+redrawGraph.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/redrawGraph.m
+END
+Z2phantomXph2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/Z2phantomXph2.txt
+END
+copy_dir.m
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/copy_dir.m
+END
+Z4phantomXph_small_jeff.txt
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/Z4phantomXph_small_jeff.txt
+END
+sql_sxacancers.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/sql_sxacancers.m
+END
+bbs_position_analogUK.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/bbs_position_analogUK.m
+END
+Z4phantomXph_big_001init.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/Z4phantomXph_big_001init.txt
+END
+findCol.m
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/findCol.m
+END
+rm6_bbspos_leftsmall.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm6_bbspos_leftsmall.m
+END
+Z4phantomXph_small_me1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/Z4phantomXph_small_me1.txt
+END
+rm4_rightbig.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm4_rightbig.m
+END
+Z4phantomXph_small_me3.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/Z4phantomXph_small_me3.txt
+END
+bbs_position_height_leftdown.m
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/bbs_position_height_leftdown.m
+END
+ZUKphantomXph_big.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/ZUKphantomXph_big.txt
+END
+dicomread_fromdisk.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/dicomread_fromdisk.m
+END
+bbs_position_height15.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/bbs_position_height15.m
+END
+bbs_position_height70.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/bbs_position_height70.m
+END
+rm4_bbspos_rightbig.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm4_bbspos_rightbig.m
+END
+bbs_position_height53.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/bbs_position_height53.m
+END
+Z4phantomXph_small_jeff2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/Z4phantomXph_small_jeff2.txt
+END
+rm1_leftbig.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm1_leftbig.m
+END
+rm7_rightsmall.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm7_rightsmall.m
+END
+bbs_position_height19.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/bbs_position_height19.m
+END
+estimateCircle.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/estimateCircle.m
+END
+bbs_position_height74.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/bbs_position_height74.m
+END
+rm5_leftbig.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm5_leftbig.m
+END
+test3.m
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/test3.m
+END
+Z2phantomXphRoom4_old.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/Z2phantomXphRoom4_old.txt
+END
+test5b.m
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/test5b.m
+END
+optimization1.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/optimization1.m
+END
+bbs_position_height5.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/bbs_position_height5.m
+END
+Projector_modified.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/Projector_modified.m
+END
+Z4phantomXph_big_001_avr123
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/Z4phantomXph_big_001_avr123
+END
+getPhantomType(orig).m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/getPhantomType(orig).m
+END
+rm1_bbspos_leftsmall.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm1_bbspos_leftsmall.m
+END
+optimization5.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/optimization5.m
+END
+findL0_BBsl.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/findL0_BBsl.m
+END
+Z1phantom_manual.m
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/Z1phantom_manual.m
+END
+optimization7_cpmc.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/optimization7_cpmc.m
+END
+Z2phantom_manual.m
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/Z2phantom_manual.m
+END
+test.m
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/test.m
+END
+Z4phantomXph_big_014t.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/Z4phantomXph_big_014t.txt
+END
+Z4phantomXph_big_014init.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/Z4phantomXph_big_014init.txt
+END
+roiTransformation.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/roiTransformation.m
+END
+rm4_bbspos_leftbigl.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm4_bbspos_leftbigl.m
+END
+bbs_position_digital_old.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/bbs_position_digital_old.m
+END
+bbs_position_digital.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/bbs_position_digital.m
+END
+manualbbs_position.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/manualbbs_position.m
+END
+Projector1.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/Projector1.m
+END
+rm4_rightsmall.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm4_rightsmall.m
+END
+test_densthickness4.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/test_densthickness4.m
+END
+bbs_position_height_upperright2horiz.m
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/bbs_position_height_upperright2horiz.m
+END
+log_convertSXA.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/log_convertSXA.m
+END
+bbs_position_height83.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/bbs_position_height83.m
+END
+bbs_position_height66.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/bbs_position_height66.m
+END
+rm2_bbspos_rightsmall.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm2_bbspos_rightsmall.m
+END
+sql_zerodensity.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/sql_zerodensity.m
+END
+rm4_bbspos_rightsmall.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm4_bbspos_rightsmall.m
+END
+bbs_position_height10n.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/bbs_position_height10n.m
+END
+rm0_leftsmall.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm0_leftsmall.m
+END
+rm6_bbspos_rightsmall.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm6_bbspos_rightsmall.m
+END
+ZUKphantomXph.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/ZUKphantomXph.txt
+END
+rm2_leftsmall.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm2_leftsmall.m
+END
+rm4_leftsmall.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm4_leftsmall.m
+END
+Z4phantomXph_small_008.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/Z4phantomXph_small_008.txt
+END
+bbs_position_height_upperleft3horiz.m
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/bbs_position_height_upperleft3horiz.m
+END
+rm6_leftsmall.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm6_leftsmall.m
+END
+Z4phantomXph_big_001_1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/Z4phantomXph_big_001_1.txt
+END
+sql_marsden.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/sql_marsden.m
+END
+rm7_bbspos_leftbig.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm7_bbspos_leftbig.m
+END
+Z4phantomXph_big_001_3.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/Z4phantomXph_big_001_3.txt
+END
+Z2phantomXphroom9.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/Z2phantomXphroom9.txt
+END
+bbProjector.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/bbProjector.m
+END
+rm0_leftbig_2.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm0_leftbig_2.m
+END
+rm4_bbspos_leftsmall.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm4_bbspos_leftsmall.m
+END
+rm2_rightbig.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm2_rightbig.m
+END
+bbs_position_height.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/bbs_position_height.m
+END
+background_phantomdigital_old2.m
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/background_phantomdigital_old2.m
+END
+rotation_matrix.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rotation_matrix.m
+END
+rm1_rightsmall.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm1_rightsmall.m
+END
+bbs_position_height50.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/bbs_position_height50.m
+END
+Z4phantomXph_big_001.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/Z4phantomXph_big_001.txt
+END
+rm5_bbspos_rightbig.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm5_bbspos_rightbig.m
+END
+rm2_leftbig.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm2_leftbig.m
+END
+background_phantomdigital.asv
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/rad_software/!svn/ver/20622/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/background_phantomdigital.asv
+END
+rm6_leftbig.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm6_leftbig.m
+END
+background_phantomdigital_old.m
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/background_phantomdigital_old.m
+END
+findL0_BBs.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/findL0_BBs.m
+END
+bbs_position_height79.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/bbs_position_height79.m
+END
+manualbbsZ1_position.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/manualbbsZ1_position.m
+END
+background_phantomdigital.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/background_phantomdigital.m
+END
+recompute.m
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/recompute.m
+END
+test4.m
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/test4.m
+END
+bbs_position_height_upperleft2horiz.m
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/bbs_position_height_upperleft2horiz.m
+END
+findRow.m
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/findRow.m
+END
+dicomread_Site.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/dicomread_Site.m
+END
+optimization6.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/optimization6.m
+END
+bbs_position_height_upperright3horizexact.m
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/bbs_position_height_upperright3horizexact.m
+END
+rm7_bbspos_leftsmall.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm7_bbspos_leftsmall.m
+END
+rm0_leftsmall_2.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm0_leftsmall_2.m
+END
+rm5_rightbig.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm5_rightbig.m
+END
+rm5_bbspos_leftbigl.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm5_bbspos_leftbigl.m
+END
+bbs_position_small_run1.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/bbs_position_small_run1.m
+END
+Projector2_old.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/Projector2_old.m
+END
+bbs_position_height25.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/bbs_position_height25.m
+END
+test_densthickness5.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/test_densthickness5.m
+END
+rm6_rightsmall.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm6_rightsmall.m
+END
+Z4phantomXph_big_014.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/Z4phantomXph_big_014.txt
+END
+bbs_position_height201small.m
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/bbs_position_height201small.m
+END
+rm3_rightbig2.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm3_rightbig2.m
+END
+test4a.m
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/test4a.m
+END
+Z2phantomXph1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/Z2phantomXph1.txt
+END
+getPhantomType.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/getPhantomType.m
+END
+Z4phantomXph_big_001
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/Z4phantomXph_big_001
+END
+dicomread_room116.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/dicomread_room116.m
+END
+rm0_rightbig.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm0_rightbig.m
+END
+bbs_position_downleft2.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/bbs_position_downleft2.m
+END
+dicominfo_fromdirectory.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/dicominfo_fromdirectory.m
+END
+bbs_position_height42small.m
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/bbs_position_height42small.m
+END
+projectionsimulation.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/projectionsimulation.m
+END
+Z4phantomXph_small_me2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/Z4phantomXph_small_me2.txt
+END
+Z1phantom_automatic.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/Z1phantom_automatic.m
+END
+rm3_rightsmall.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm3_rightsmall.m
+END
+redrawGraph2.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/redrawGraph2.m
+END
+optimization7cut.m
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/optimization7cut.m
+END
+bbs_position_height17.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/bbs_position_height17.m
+END
+fit_densthickness4.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/fit_densthickness4.m
+END
+bbs_position_height72.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/bbs_position_height72.m
+END
+rm6_bbspos_rightbig.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm6_bbspos_rightbig.m
+END
+rm3_leftbig.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm3_leftbig.m
+END
+testbblocation1.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/testbblocation1.m
+END
+testprojection1.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/testprojection1.m
+END
+Z4phantomXph_big_014_1
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/Z4phantomXph_big_014_1
+END
+50511.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/50511.txt
+END
+Z4phantomXph_big_014_2
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/Z4phantomXph_big_014_2
+END
+bbs_position_height5small.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/bbs_position_height5small.m
+END
+Z4phantomXph_small_me.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/Z4phantomXph_small_me.txt
+END
+rm7_leftbig.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm7_leftbig.m
+END
+rm2_bbspos_leftbig.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm2_bbspos_leftbig.m
+END
+test5.m
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/test5.m
+END
+rm0_rightsmall_2.m
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm0_rightsmall_2.m
+END
+bbs_position_height_rightdown.m
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/bbs_position_height_rightdown.m
+END
+optimization3.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/optimization3.m
+END
+bbs_position_height7.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/bbs_position_height7.m
+END
+optimization7.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/optimization7.m
+END
+rm5_bbspos_leftsmall.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm5_bbspos_leftsmall.m
+END
+Z4phantomXph_small.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/Z4phantomXph_small.txt
+END
+merit.m
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/merit.m
+END
+rm3_rightbig.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm3_rightbig.m
+END
+getPhantomType_new.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/getPhantomType_new.m
+END
+angle_transform.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/angle_transform.m
+END
+testFit.m
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/testFit.m
+END
+Z1phantomXph.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/Z1phantomXph.txt
+END
+rm0_rightsmall.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm0_rightsmall.m
+END
+rm6_bbspos_leftbigl.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm6_bbspos_leftbigl.m
+END
+bbs_position_upperright2.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/bbs_position_upperright2.m
+END
+bbs_position_height22.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/bbs_position_height22.m
+END
+bbs_position_height81.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/bbs_position_height81.m
+END
+rm2_rightbigl.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm2_rightbigl.m
+END
+bbs_position_height64.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/bbs_position_height64.m
+END
+power.m
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/power.m
+END
+rm0_rightbig_2.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm0_rightbig_2.m
+END
+Z4phantomXph_small_001.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/Z4phantomXph_small_001.txt
+END
+rm3_bbspos_rightsmall.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm3_bbspos_rightsmall.m
+END
+bbs_position_height68.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/bbs_position_height68.m
+END
+rm5_bbspos_rightsmall.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm5_bbspos_rightsmall.m
+END
+bbs_position_upperleft2.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/bbs_position_upperleft2.m
+END
+rm1_leftsmall.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm1_leftsmall.m
+END
+rm7_bbspos_rightsmall.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm7_bbspos_rightsmall.m
+END
+manualbbsZ2_position.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/manualbbsZ2_position.m
+END
+rm3_leftsmall.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm3_leftsmall.m
+END
+findL0all.m
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/findL0all.m
+END
+rm3_bbspos_leftbig.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm3_bbspos_leftbig.m
+END
+test4b.m
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/test4b.m
+END
+Z2phantomXphroom4.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/Z2phantomXphroom4.txt
+END
+rm5_leftsmall.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm5_leftsmall.m
+END
+rm7_leftsmall.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm7_leftsmall.m
+END
+Z4phantomXph_big_001_2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/Z4phantomXph_big_001_2.txt
+END
+Z2phantomXphroom8.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/Z2phantomXphroom8.txt
+END
+fit_densthickness4(old).m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/fit_densthickness4(old).m
+END
+bbs_position_analog.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/bbs_position_analog.m
+END
+background_digital.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/background_digital.m
+END
+log_convert.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/log_convert.m
+END
+Z1phantom.m
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/Z1phantom.m
+END
+bbs_position_height10.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/bbs_position_height10.m
+END
+rm6_rightbig.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm6_rightbig.m
+END
+testFit(orig).m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/testFit(orig).m
+END
+Z4phantomXph_big_001_avr12
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/Z4phantomXph_big_001_avr12
+END
+optimization.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/optimization.m
+END
+rm3_bbspos_rightbig.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm3_bbspos_rightbig.m
+END
+rm5_rightsmall.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm5_rightsmall.m
+END
+rm0_leftbig.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm0_leftbig.m
+END
+fit_densthickness5.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/fit_densthickness5.m
+END
+rm7_bbspos_rightbig.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm7_bbspos_rightbig.m
+END
+dicomread_directory2.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/dicomread_directory2.m
+END
+bbs_position_height56.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/bbs_position_height56.m
+END
+rm4_leftbig.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm4_leftbig.m
+END
+testbblocation2.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/testbblocation2.m
+END
+testbblocation2mod.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/testbblocation2mod.m
+END
+testprojection2.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/testprojection2.m
+END
+test2.m
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/test2.m
+END
+Z4phantomXph_small_014.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/Z4phantomXph_small_014.txt
+END
+background_phantomUK.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/background_phantomUK.m
+END
+test5a.m
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/test5a.m
+END
+test6.m
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/test6.m
+END
+optimization4.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/optimization4.m
+END
+rm3_bbspos_leftsmall.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm3_bbspos_leftsmall.m
+END
+testing.m
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/testing.m
+END
+optimization8.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/optimization8.m
+END
+rm1_rightbig.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm1_rightbig.m
+END
+rm0_bbs_1l.m
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/rm0_bbs_1l.m
+END
+sql_acqcancers.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SXA%20step%20phantom/sql_acqcancers.m
+END

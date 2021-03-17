@@ -1,0 +1,27 @@
+classdef Image
+    properties %(SetAccess = 'private')
+        imageRaw = [];
+        imageAtten = [];
+        imageThick =[];
+        imageDensity=[];
+        breastMask = [];
+        breastCoord = [];
+        resolution = [];%in m
+    end
+    
+    methods
+        function obj = Image(imageRaw, imageAtten, imageThick, imageDensity, breastMask, breastCoord, resolution)            
+            obj.imageRaw = imageRaw;
+            obj.imageAtten = imageAtten;
+            obj.imageThick = imageThick;
+            obj.imageDensity = imageDensity;
+            obj.breastMask= breastMask;
+            obj.breastCoord = breastCoord;
+            obj.resolution=resolution;
+        end
+        
+        function disp(obj)
+        end
+        
+    end
+end

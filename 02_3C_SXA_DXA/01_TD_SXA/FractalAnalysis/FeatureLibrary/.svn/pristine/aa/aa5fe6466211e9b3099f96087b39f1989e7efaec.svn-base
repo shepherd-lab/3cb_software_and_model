@@ -1,0 +1,13 @@
+function output = lowGlevelRunEmph(calcParam, inputParam) %#ok<INUSD>
+%calculate the low gray-level run emphasis based on the run-length matrix
+[m, n] = size(calcParam.rlMatObj.matrix);
+glevelMin = calcParam.rlMatObj.glevelMin;
+LGREsum = 0;
+for i = 1:m
+    glevel = glevelMin + i - 1;
+    for j = 1:n
+        LGREsum = LGREsum + calcParam.rlMatObj.matrix(i, j)/(glevel^2);
+    end
+end
+output = LGREsum/calcParam.NOR;
+end

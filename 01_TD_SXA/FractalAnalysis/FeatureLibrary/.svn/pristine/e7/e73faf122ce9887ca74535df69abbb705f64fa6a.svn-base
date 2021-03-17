@@ -1,0 +1,6 @@
+function output = runPercent(calcParam, inputParam) %#ok<INUSD>
+%calculate the run percentage based on the run-length matrix
+runLen = 1:size(calcParam.rlMatObj.matrix, 2);
+numPixels = sum(runLen.*sum(calcParam.rlMatObj.matrix, 1));
+output = calcParam.NOR/numPixels;
+end

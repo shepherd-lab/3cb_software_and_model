@@ -1,0 +1,46 @@
+function [output, outputNames]=FFT(imageObj,maskObj,inputParam)
+image=imageObj.breastMask.*imageObj.image.*maskObj.image;
+min_CurrentImageFT = min(min(image));
+BreastMaskUndersampleFT = ~(image==0);
+if min_CurrentImageFT < 0 && abs(min_CurrentImageFT)< 10000
+    CurrentImageFT = (image - min_CurrentImageFT+1);
+end
+FlatImage=reshape(CurrentImageFT,1,numel(CurrentImageFT));
+Sorted_vect=sort(FlatImage,2);
+[maxi,index]=max(Sorted_vect>0); %#ok<ASGLU>
+Sorted_vect(1:index-1)=[];
+min_imageFT = round(min(Sorted_vect));
+im_sizeFT = size(CurrentImageFT);
+ylen = im_sizeFT(1);
+xlen = im_sizeFT(2);
+x = (1:xlen);%-round(xlen/2);
+y = (1:ylen); %-);round(ylen/2)-
+[X,Y] = meshgrid(x,y);
+x0 = round(xlen/2);
+y0 = round(ylen/2);
+R = min([round(xlen/2) round(ylen/2)]);
+N = 2*R;
+zero_index = sqrt((X-x0).^2+(Y-y0).^2)>R;
+r = sqrt((X-x0).^2+(Y-y0).^2);
+rminus_index = find(r(Y>y0));
+r(rminus_index) = -r(rminus_index);
+hann_wind = 0.5*(cos(2*pi*r/N)+1);
+hann_wind(zero_index) = 0;
+CurrentImageFT = (CurrentImageFT - min_imageFT).*BreastMaskUndersampleFT+1;
+Nf = 1024;
+z = hann_wind.*CurrentImageFT;
+Yfft = fft2(z,Nf,Nf);
+Zfft = fftshift(Yfft);
+P_fft = abs(Zfft).^2;
+count = 0;
+f = zeros(1,Nf*Nf);
+calcParam.P_vect = zeros(1,Nf*Nf);
+for u = 1:Nf
+    for v = 1:Nf
+        count = count + 1;
+        f(count) = sqrt((u-0.5*Nf)^2 + (v-Nf*0.5)^2);
+        P_vect(count) = P_fft(u,v);
+    end
+end
+f = round(f);
+%still need to add subfunction calls.

@@ -1,0 +1,20 @@
+function output = maxCorCoef(calcParam, inputParam) %#ok<INUSD>
+%maxCorCoef computes Maximal Correlation Coefficient
+%Notation described in 'Feature Definition and Algorithm.docx'
+Cx = sum(calcParam.comat, 2);
+Cy = sum(calcParam.comat, 1);
+n = length(Cx);
+Q = zeros(size(calcParam.comat));
+for i = 1:n
+    for j = 1:n
+        if Cx(i) ~= 0 && Cy(j) ~= 0
+            for k = 1:n
+                Q(i, j) = Q(i, j) + calcParam.comat(i, k)*calcParam.comat(j, k);
+            end
+            Q(i, j) = Q(i, j)/(Cx(i)*Cy(j));
+        end
+    end
+end
+eigVal = sort(eig(Q), 'descend');
+output = eigVal(2);
+end

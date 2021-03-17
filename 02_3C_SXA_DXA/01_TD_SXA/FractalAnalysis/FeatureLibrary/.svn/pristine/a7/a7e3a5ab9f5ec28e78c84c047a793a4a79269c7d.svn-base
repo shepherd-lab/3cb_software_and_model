@@ -1,0 +1,5 @@
+function output = diffVar(calcParam, inputParam) %#ok<INUSD>
+%diffVar computes Difference Variance
+%Notation described in 'Feature Definition and Algorithm.docx'
+output = var(calcParam.diffVec);
+end

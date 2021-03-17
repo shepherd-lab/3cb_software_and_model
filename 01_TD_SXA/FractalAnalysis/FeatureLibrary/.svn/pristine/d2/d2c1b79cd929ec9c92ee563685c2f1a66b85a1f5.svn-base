@@ -1,0 +1,5 @@
+function featureLibraryTest(imageObj, databaseObj)
+
+featureObs=calc_features(imageObj,maskObj,featureList);
+savefeatures(imageObj,featureObs,featureList, databaseObj);
+end

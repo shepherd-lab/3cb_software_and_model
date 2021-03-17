@@ -1,0 +1,63 @@
+function maskDefList = mask_centralquadrant(imageObj, coordStruct, mask)
+%This function masks off a central region, a peak density region, and 4
+%quadrants.  It is written to maintain compatability with previous
+%versions.
+%mask.maskFcn.parameter_1 determines how the square size is calculated
+%pixels - in pixels, centimeter - in centimeters, relative - relative to
+%coordinate system (not implemented)
+%mask.maskFcn.parameter_2 determines the radius in the above unit.
+maskDefList.name=mask.name;
+maskDefList.maskDefinition={};
+xmin0=1;
+ymin0=1;
+xmax0=size(imageObj.imageRaw, 1);
+ymax0=size(imageObj.imageRaw, 2);
+squareSize=str2num(mask.maskFcn.parameter_2); %#ok<ST2NM>
+
+switch mask.maskFcn.parameter_1
+    case 'pixels'
+        radius=str2num(maskFcn.parameter_2);        %#ok<ST2NM>
+    case 'centimeter'
+        radius=10*str2num(maskFcn.parameter_2)/(imageObj.resolution); %#ok<ST2NM>
+    otherwise
+        error('mask_centralquadrant:UNSUPPORTEDUNITTYPE', 'pixels and centimeter are supported');
+end
+end
+[x,y] = mask_coord_centerROIDensity;
+maskDefList.maskDefinition{1}=mask_circle_film([x,y],radius,1000,imageObj.imageRaw);
+tempROI=zeros(xmax, ymax)'
+maskDefList.maskDefinition{2}.xmin=1;
+maskDefList.maskDefinition{2}.xmax=xmax0;
+maskDefList.maskDefinition{2}.ymin=1;
+maskDefList.maskDefinition{2}.ymax=ymax0
+maskDefList.maskDefinition{2}.roiMask=
+
+c.quadrant1=tempROI;
+c.quadrant1(1:y, 1:x)=1;
+c.quadrant2=tempROI;
+maskDefList.maskDefinition{2}.xmin=
+maskDefList.maskDefinition{2}.xmin=
+maskDefList.maskDefinition{2}.xmin=
+maskDefList.maskDefinition{2}.xmin=
+maskDefList.maskDefinition{2}.xmin=
+
+c.quadrant2(1:y, x:end)=1;
+c.quadrant3=tempROI;
+c.quadrant3(y:end, 1:x)=1;
+maskDefList.maskDefinition{2}.xmin=
+maskDefList.maskDefinition{2}.xmin=
+maskDefList.maskDefinition{2}.xmin=
+maskDefList.maskDefinition{2}.xmin=
+maskDefList.maskDefinition{2}.xmin=
+
+c.quadrant4=tempROI;
+c.quadrant4(y:end, x:end)=1;
+maskDefList.maskDefinition{2}.xmin=
+maskDefList.maskDefinition{2}.xmin=
+maskDefList.maskDefinition{2}.xmin=
+maskDefList.maskDefinition{2}.xmin=
+maskDefList.maskDefinition{2}.xmin=
+
+[x, y]=get_peakDensity(ROI.image);
+c.peakCircle=circle_film([x,y],radius,1000,'-','y');
+end

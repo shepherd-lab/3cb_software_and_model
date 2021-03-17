@@ -1,0 +1,4 @@
+function output = angSecM(calcParam, inputParam)
+%angSecM computes Angular Second Moment
+output = sum(sum(calcParam.comat.^2));
+end

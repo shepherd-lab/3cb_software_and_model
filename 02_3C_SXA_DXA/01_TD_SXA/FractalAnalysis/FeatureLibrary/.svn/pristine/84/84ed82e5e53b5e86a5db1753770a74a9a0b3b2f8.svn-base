@@ -1,0 +1,20 @@
+function [output,outputNames]=fractal_threshold(FractalCurrentImage, param) %#ok<INUSD>
+%param2 is FractalThreshold
+x=1:4;
+for k=x
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %Fractal dimension of thresholded image "FD_th"
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        FractalThreshold=0.05*indexFractalThreshold;
+        [maxi,thresholdindex]=max(Histp>FractalThreshold); %#ok<ASGLU>
+        threshold=bins(thresholdindex);
+        %compute fractal dimension (feature 1: FD_th_x%)
+        image = (FractalCurrentImage>threshold);
+        [gradiant,gradimage]=myGradiant(image); %#ok<NASGU>
+        FD_Th(k)=log10(gradiant); %#ok<AGROW> 
+end
+%fractal analysis FD_TH
+p = polyfit(x,FD_Th(:)',1);
+output=-p(1)/log10(2);
+outputNames={['fractal_FD',};
+end

@@ -1,0 +1,3 @@
+function newX=limit_range(x, xmin, xmax)
+newX=min(max(x, xmin), xmax);
+end

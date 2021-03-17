@@ -1,0 +1,4 @@
+function output=fft_fmp(calcParam,inputParam) %#ok<*INUSD>
+output = sum(calcParam.f.*calcParam.P_vect)/sum(calcParam.P_vect);
+end
+

@@ -1,0 +1,11 @@
+function output = diffM(calcParam, inputParam) %#ok<INUSD>
+%diffM computes Difference Moment
+%Notation described in 'Feature Definition and Algorithm.docx'
+n = size(calcParam.comat, 1);
+output = 0;
+for i = 1:n
+    for j = 1:n
+        output = output + (i-j)^2*calcParam.comat(i, j);
+    end
+end
+end

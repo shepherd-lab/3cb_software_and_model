@@ -1,0 +1,14 @@
+function [output, outputNames]=fractal(imageObj,maskObj,param) %#ok<INUSD>
+CurrentImage=imageObj.image.*imageObj.breastMask.*maskObj.image;
+dynamic=65536;
+bins=(0:1000)*(dynamic-Analysis.BackGroundThreshold)/1000;
+FlatImage=reshape(CurrentImage,numel(CurrentImage),1);
+Histc = histc(FlatImage,bins);
+Histc(1)=0;   %erase background from calculation
+Histp=cumsum(Histc);
+Histp=Histp/Histp(end);
+FractalCurrentImage=CurrentImage;
+
+
+%need to add parser here...need to firm up parameter input
+end

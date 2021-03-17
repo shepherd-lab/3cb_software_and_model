@@ -1,0 +1,41 @@
+function [output, outputFeature_id]=MARKOV(imageObj,maskObj,inputParam)
+numGrRed=str2num(inputParam.main_func.parameter_1);%#ok<ST2NM> %number of gray scale reductions, a number between 0 and 16
+%I have modified this to be a minimum of 4 gray scale reductions because
+%of memory limitations.
+dir=str2num(inputParam.main_func.parameter_2); %#ok<ST2NM>
+dist=str2num(inputParam.main_func.parameter_3); %#ok<ST2NM>
+switch dir
+    case 0
+        calcParam.nDir=1;
+    case 90
+        calcParam.nDir=2;
+    otherwise
+        error('MARKOV: Unsupported direction');
+end
+switch dist
+    case 1
+        calcParam.nDist=1;
+    case 2
+        calcParam.nDist=2;
+    case 4
+        calcParam.nDist=3;
+    case 8
+        calcParam.nDist=4;
+    otherwise
+        error('MARKOV: Unsupported neighborhood distance');
+end
+image=do_mask(imageObj.imageRaw.*imageObj.breastMask, maskObj);
+breastMask=do_mask(imageObj.breastMask, maskObj);
+maskObj.roiMask=maskObj.roiMask.*breastMask;
+for i=1:(numGrRed+4)
+    image=round(image/2);
+end
+[comat, gmin] = coocMat_90(image, maskObj, dir, dist); %#ok<NASGU>
+%compute other derived vectors
+sumVec = sumVect(comat);
+diffVec = diffVect(comat);
+calcParam.comat=comat;
+calcParam.sumVec=sumVec;
+calcParam.diffVec=diffVec;
+[output,outputFeature_id]=evaluatesubfunc(calcParam,inputParam);
+end

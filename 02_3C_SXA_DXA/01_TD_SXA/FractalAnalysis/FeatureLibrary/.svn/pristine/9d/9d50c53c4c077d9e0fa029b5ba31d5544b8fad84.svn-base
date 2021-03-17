@@ -1,0 +1,4 @@
+function output = runLenNonuni(calcParam, inputParam) %#ok<INUSD>
+%calculate run length nonuniformity based on the run-length matrix
+output = sum((sum(calcParam.rlMatObj.matrix, 1)).^2)/calcParam.NOR;
+end

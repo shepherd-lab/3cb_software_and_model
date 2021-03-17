@@ -1,0 +1,16 @@
+function [output, outputFeature_id]=RUNLENGTH(imageObj,maskObj,inputParam)
+%                        featParam.numGrRed = 4;
+%                        featParam.Mark.dir = [0 90];
+%                        featParam.Mark.dist = [1 2 4 8];
+%                        featParam.RL.dir = [0 45 90 135];
+%                        featParam.Laws.filter = {'L5' 'E5' 'S5' 'W5' 'R5'};
+numGrRed=str2num(inputParam.main_func.parameter_1);%#ok<ST2NM> %number of gray scale reductions, a number between 0 and 16
+image=do_mask(imageObj.imageRaw.*imageObj.breastMask, maskObj);
+for i=1:numGrRed
+    image=round(image/2);
+end
+dir=str2num(inputParam.main_func.parameter_2); %#ok<ST2NM>
+calcParam.rlMatObj = calcRunLenMat(image, maskObj, dir);
+calcParam.NOR = numOfRuns(calcParam.rlMatObj);
+[output,outputFeature_id]=evaluatesubfunc(calcParam,inputParam);
+end

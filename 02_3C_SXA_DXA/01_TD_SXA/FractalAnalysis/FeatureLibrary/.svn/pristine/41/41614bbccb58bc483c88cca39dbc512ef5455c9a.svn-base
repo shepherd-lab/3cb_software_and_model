@@ -1,0 +1,3 @@
+function output=NOR(calcParam,inputParam) %#ok<INUSD>
+output=calcParam.NOR;
+end

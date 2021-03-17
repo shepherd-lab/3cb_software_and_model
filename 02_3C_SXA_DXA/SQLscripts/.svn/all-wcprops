@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SQLscripts
+END
+database_enq.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SQLscripts/database_enq.m
+END
+CheckAutoManulSXAcompatibility.m
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SQLscripts/CheckAutoManulSXAcompatibility.m
+END
+BBDsIdsForLauraInvestigation.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SQLscripts/BBDsIdsForLauraInvestigation.m
+END
+funcShowSQLinTable.m
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SQLscripts/funcShowSQLinTable.m
+END
+CheckSXAAnalysis.m
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SQLscripts/CheckSXAAnalysis.m
+END
+Transfert200Scans.m
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/rad_software/!svn/ver/16916/groups/bbdg/branches/3C%20SXA%20DXA/SQLscripts/Transfert200Scans.m
+END

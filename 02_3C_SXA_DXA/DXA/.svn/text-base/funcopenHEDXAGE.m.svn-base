@@ -1,0 +1,6 @@
+function funcopenHEDXAGE()
+   global Result
+   Result.flagHE = true; 
+   
+   FuncMenuOpenImage(option);
+

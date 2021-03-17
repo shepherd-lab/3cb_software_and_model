@@ -1,0 +1,5 @@
+function [output, outputNames]=fft_rms(f,P_vect,param)
+output = sqrt(sum(P_vect));
+outputNames={'FFT_FD'};
+end
+

@@ -1,0 +1,77 @@
+#
+# An unexpected error has been detected by HotSpot Virtual Machine:
+#
+#  Internal Error (53414645504F494E540E43505001E8), pid=6420, tid=7400
+#
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (1.5.0_05-b05 mixed mode)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000000002f18e10):  JavaThread "main" [_thread_in_native_trans, id=7400]
+
+Stack: [0x00000000004e0000,0x0000000000ce0000)
+[error occurred during error reporting, step 110, id 0xe0000000]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x0000000002f1ae50 JavaThread "AWT-EventQueue-0" [_thread_blocked, id=2156]
+  0x0000000025e57890 JavaThread "Thread-42" [_thread_blocked, id=3376]
+  0x0000000025e575e0 JavaThread "Thread-41" [_thread_blocked, id=6148]
+  0x0000000025e57080 JavaThread "Thread-40" [_thread_blocked, id=5424]
+  0x0000000025e56dd0 JavaThread "Thread-39" [_thread_blocked, id=5212]
+  0x0000000025e56b20 JavaThread "Thread-38" [_thread_blocked, id=1540]
+  0x0000000002f1c680 JavaThread "Thread-37" [_thread_blocked, id=8096]
+  0x0000000025e56870 JavaThread "Thread-36" [_thread_blocked, id=8028]
+  0x0000000025e565c0 JavaThread "Thread-35" [_thread_blocked, id=5140]
+  0x0000000025e56310 JavaThread "Thread-34" [_thread_blocked, id=6892]
+  0x0000000025e56060 JavaThread "Thread-33" [_thread_blocked, id=5708]
+  0x0000000025e55db0 JavaThread "Thread-32" [_thread_blocked, id=6264]
+  0x0000000025e55b00 JavaThread "Thread-31" [_thread_blocked, id=4576]
+  0x0000000025e55850 JavaThread "Thread-30" [_thread_blocked, id=6920]
+  0x0000000025e555a0 JavaThread "Thread-29" [_thread_blocked, id=5616]
+  0x0000000025e552f0 JavaThread "Thread-28" [_thread_blocked, id=7852]
+  0x0000000025e55040 JavaThread "Thread-27" [_thread_blocked, id=4300]
+  0x0000000025b278b0 JavaThread "Thread-26" [_thread_blocked, id=2820]
+  0x0000000025b27600 JavaThread "Thread-25" [_thread_blocked, id=6452]
+  0x0000000025b27350 JavaThread "Thread-24" [_thread_blocked, id=8120]
+  0x0000000025b270a0 JavaThread "Thread-23" [_thread_blocked, id=6228]
+  0x0000000025b26b40 JavaThread "Thread-22" [_thread_blocked, id=7700]
+  0x0000000025b26890 JavaThread "Thread-21" [_thread_blocked, id=7784]
+  0x0000000025b265e0 JavaThread "Thread-20" [_thread_blocked, id=7212]
+  0x0000000025b26330 JavaThread "Thread-19" [_thread_blocked, id=6392]
+  0x0000000025b26080 JavaThread "Thread-18" [_thread_blocked, id=6508]
+  0x0000000025b25dd0 JavaThread "Thread-17" [_thread_blocked, id=7540]
+  0x0000000025b25b20 JavaThread "Thread-16" [_thread_blocked, id=3384]
+  0x0000000025b255c0 JavaThread "Thread-15" [_thread_blocked, id=7912]
+  0x0000000025b25310 JavaThread "Thread-14" [_thread_blocked, id=7132]
+  0x0000000025b25060 JavaThread "Thread-13" [_thread_blocked, id=2672]
+  0x0000000025b24db0 JavaThread "Thread-12" [_thread_blocked, id=5416]
+  0x0000000025b24b00 JavaThread "Thread-11" [_thread_blocked, id=3956]
+  0x0000000025b24850 JavaThread "Thread-10" [_thread_blocked, id=1856]
+  0x0000000025b245a0 JavaThread "Thread-9" [_thread_blocked, id=7244]
+  0x0000000025b24040 JavaThread "Thread-8" [_thread_blocked, id=5392]
+  0x0000000002f1c930 JavaThread "Thread-7" [_thread_blocked, id=6028]
+  0x0000000002f1c3d0 JavaThread "Thread-6" [_thread_blocked, id=6816]
+  0x0000000002f1c120 JavaThread "Active Reference Queue Daemon" daemon [_thread_blocked, id=6188]
+  0x0000000002f1be70 JavaThread "Timer-2" daemon [_thread_blocked, id=6360]
+  0x0000000002f1bbc0 JavaThread "Timer-1" daemon [_thread_blocked, id=3816]
+  0x0000000002f1b660 JavaThread "TimerQueue" daemon [_thread_blocked, id=7552]
+  0x0000000002f1aba0 JavaThread "Java2D Disposer" daemon [_thread_blocked, id=6036]
+  0x0000000002f1a8f0 JavaThread "Timer-0" [_thread_blocked, id=620]
+  0x0000000002f1a640 JavaThread "AWT-Windows" daemon [_thread_in_native, id=4408]
+  0x0000000002f1a390 JavaThread "AWT-Shutdown" [_thread_blocked, id=5280]
+  0x0000000002f1a0e0 JavaThread "Low Memory Detector" daemon [_thread_blocked, id=3888]
+  0x0000000002f19e30 JavaThread "CompilerThread1" daemon [_thread_blocked, id=6804]
+  0x0000000002f19b80 JavaThread "CompilerThread0" daemon [_thread_blocked, id=4832]
+  0x0000000002f198d0 JavaThread "AdapterThread" daemon [_thread_blocked, id=2364]
+  0x0000000002f19620 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=6316]
+  0x0000000002f19370 JavaThread "Finalizer" daemon [_thread_blocked, id=7556]
+  0x0000000002f190c0 JavaThread "Reference Handler" daemon [_thread_blocked, id=3764]
+=>0x0000000002f18e10 JavaThread "main" [_thread_in_native_trans, id=7400]
+
+Other Threads:
+  0x0000000002f2c0d0 VMThread [id=4252]
+  0x0000000002f2c400 WatcherThread [id=2476]
+

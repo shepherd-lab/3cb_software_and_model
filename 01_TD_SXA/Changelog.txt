@@ -1,0 +1,76 @@
+Changelog
+2012-01-12 Fred Duewer
+1. SXA\thickness_ROIcreation.m:
+a. Line 91-92: Modified calculation to remove discontinuity during estimation of paddle distortion due to force from breast.
+i. thickness_ROI(middle+1:end,i) = plane_coef(1)* X1 - plane_coef(2)*Yneg + plane_coef(3)+plane_coef(2)*Y1(end)+plane_coef(2)*Yneg(1);
+ii. %FD 2012/01/12 Corrected discontinuity;
+ 
+2012-01-10 Fred Duewer 
+1. CommonAnalysis\SkinDetection\funcfindOutline.m:
+a. Line 31-33: Added following to eliminate crash if large CCD has zeros on CCD edge near breast: 
+i. image(1:end,1:5)=1;
+ii. %FD 11/16/2011 added to remove problems with large images having zeros at
+iii. %the edge of the CCD. not a great solution.
+b. Line 47:	
+i. if (alpha<0.1)  %stop the process (faillure) %stop the process (faillure)FD 10/16/2011 Removed the time counter because it is processor dependent and also makes debugging hard.
+2. CommonAnalysis\SkinDetection\nipple_removing.m
+a. Line 10-17: Modified code to remove possible indexing-related crash
+i. if minr<51
+ii.   minr=minr+50;
+iii. end
+iv. if maxr>(size(range_index)-50)
+v.    maxr=maxr-50;
+vi. end
+vii. %FD 1/12/2012 Added to eliminate possible crash related to
+viii. %indexing error
+3. CommonAnalysis\SkinDetection\funcFindStuffOnOutline.m
+a. Line 151, 157-158: modified code to remove possible indexing error
+i. i=min(i,numel(Outline.x));
+4. SXA step phantom\background_phantomdigital.m
+a. Lines 
+i. %FD 1/12/2012 Uses lowest 3rd percentile rather than lowest value to
+ii.       %improve reproducibility.
+iii.      % max_image = max(max(image)); %%%
+iv.       %min_image = min(min(phantom_image)); %%%
+v.       sortedImage=sort(squeeze(reshape(image1, numel(image1), 1)));
+vi. %create a one dimensional sorted version of image
+vii.       min_image=single(sortedImage(round(numel(image1)*0.03)));
+viii. %Get the smallest value in the image.  This value is used directly in
+ix. %background computation.  So, this is not robust.
+x.       sortedImage=sort(squeeze(reshape(Image.OriginalImage, numel(Image.OriginalImage), 1)));
+xi. %create a one dimensional sorted version of image
+xii. min_image_orig=single(sortedImage(round(numel(Image.OriginalImage)*0.03)));
+5. CommonAnalysis\ComputeBackGroundV2.m
+a. Lines: 26-36: Increased size of crop window to handle larger breasts
+i. %              ymin = 385;
+ii.                 ymin=50;
+iii.  %              ymax = image_size(1) - 385;
+iv.                 ymax= image_size(1)-50;
+v.  %              xmin = 385;
+vi.                 xmin= 50;
+vii.  %              xmax = image_size(2) - 385;
+viii.                 xmax=image_size(2)-50;
+ix.                 %FD 11/17/2011 Prior limits failed for large breasts.  There may be
+x.                 %memory issues with the new limits - but they will
+xi.                 %hopefully work on Ming.
+6. FractalAnalysis\StructuralAnalysisComputation.m
+a. Line 5: UnderSamplingFactor changed to 1 from 3 for consistency with prior work.
+b. Line 393: Replaced sum(no_nansum(… with nansum(nansum(… because of a crash.
+c. Line 560: Replaced logf>1.5 with logf>1.2 for consistency with film data.
+d. Line 600-607: Modified to avoid crash
+i.     UnderSamplingFactor = 1;
+ii.     CurrentImage=UnderSamplingN(CurrentImage,UnderSamplingFactor);
+iii.     im_size = size(CurrentImage);
+iv.     min_image = min(min(CurrentImage));
+v.     CurrentImage = round((CurrentImage-min_image)/4) + round(min_image/4);
+vi.     max_image = max(max(CurrentImage));
+vii.     min_image = min(min(CurrentImage));
+e. Lines 635-640: Modified for consistency with film calculations
+i.   num_levels = max_image-min_image;
+ii.    s = zeros(1, num_levels);
+iii.    N = zeros(1, num_levels);
+iv.    p = zeros(1, num_levels);
+v.    grv = zeros(1, num_levels);
+f. Line 640: Modified variable name
+g. Line 664: Modified variable name
+

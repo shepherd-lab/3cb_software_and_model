@@ -3,7 +3,7 @@
 This repo contains the three compartment breast (3CB) software and
 final trained neural network model used in the manuscript entitled "Dual-energy
 three compartment breast imaging (3CB) for novel compositional biomarkers to
-improve detection of malignant lesions", submitted to Nature publications in q1 2021. 
+improve detection of malignant lesions", submitted to Nature publications in q1 2021.
 
 
 [![DOI](https://zenodo.org/badge/348485528.svg)](https://zenodo.org/badge/latestdoi/348485528)
@@ -12,14 +12,31 @@ improve detection of malignant lesions", submitted to Nature publications in q1 
 The 3CB software converts fully registered high and low energy mammograms to lipid, water, and protein compositional thickness maps. Base software is written for Matlab 2016.
 
 
-The neural network model takes 3CB derived features and CAD predicted proabiblity of malignancy and outputs a new probability of malignancy.
+The neural network model takes 3CB derived features and CAD predicted probability of malignancy and outputs a new probability of malignancy.
 
 ---
 ## Requirements
 
+### Hardware requirements
+
+#### 3CB imaging ####
+* Aluminum X-ray filter
+* [SXA Paddle Phantom](documentation/sxa_paddle_phanotm.png)
+* [3CB Calbiration Phantom](documentation/calibration-phantom_3cb.png)
+
+#### Minimum computational hardware ####
+* 4 core CPU
+* 8 gb of RAM
+* Cuda enabled GPU (optional)
+
+  Runtimes:
+  * 3CB software installation: < 1 minute
+  * 3CB thickness map generation: < 1 minute per patient
+  * neural network prediction: < 10 seconds per 1000 ROIs  
+
 ### 3CB software
 * Microsoft SQL Server Management Studio
-* MATLAB 2016b 
+* MATLAB 2016b
 
 ### Neural Network Model
 - Python 3.6+, with recent versions of the following python packages:

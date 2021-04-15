@@ -1,8 +1,0 @@
-function [output, outputNames]=NGTDM_strength(calcParam,inputParam)
-fstr = 0;
-for i=1:Ng
-    fstr = fstr + sum((calcParam.p(i)+calcParam.p).*(calcParam.grv(i)-calcParam.grv).^2/(calcParam.e+sum(calcPs)));
-end
-output = fstr;
-outputNames={'NGTDM_strength'};
-end

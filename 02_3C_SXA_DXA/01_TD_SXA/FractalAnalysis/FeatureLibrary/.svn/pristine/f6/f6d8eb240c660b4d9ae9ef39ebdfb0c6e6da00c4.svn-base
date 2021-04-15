@@ -1,3 +1,0 @@
-function imageOutObj=identity_func(imageObj, stepInfo)
-    imageOutObj=imageObj;
-end

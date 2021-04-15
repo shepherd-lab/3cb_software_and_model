@@ -1,8 +1,0 @@
-function output = contrast(calcParam, inputParam) %#ok<INUSD>
-%contrast computes Contrast
-n = length(calcParam.diffVec);
-output = 0;
-for k = 1:n
-    output = output + (k-1)^2 * calcParam.diffVec(k);
-end
-end

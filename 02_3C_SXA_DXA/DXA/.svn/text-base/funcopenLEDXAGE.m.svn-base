@@ -1,9 +1,0 @@
-function funcopenLEDXAGE()
-    global Result Image
-    
-    Result.flagLE = true;
-    Result.flagHE = false;
-    Image.centerlistactivated = 12;
-    FuncMenuOpenImage(option);
-    Result.flagHE = true; 
-    FuncMenuOpenImage(option);
